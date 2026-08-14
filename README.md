@@ -182,3 +182,121 @@ The project demonstrates how Logistic Regression can be used to predict student 
 # 👩‍💻 Author
 # Lavanya Yalamanchi
 # Computer Science & Data Science Student
+
+
+
+# 📊 Student Performance Analysis
+
+## 📌 Project Overview
+This project focuses on analyzing student performance using Python and data visualization techniques.
+The analysis explores students' **math, reading, and writing scores** and examines relationships between scores, gender, and parental level of education.
+
+## 🎯 Objectives
+- Load and explore the student performance dataset
+- Check the dataset structure and missing values
+- Generate statistical summaries
+- Analyze the distribution of math scores
+- Study the relationship between reading and writing scores
+- Compare average scores by gender
+- Analyze the relationship between parental education and math scores
+- Study the correlation between math, reading, and writing scores
+
+
+## 🛠️ Technologies Used
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Google Colab
+
+
+## 📂 Project Structure
+Student-Performance-Analysis/
+│
+├── StudentsPerformance.csv
+├── student_performance.py
+└── README.md
+
+# 📊 Dataset
+The project uses the StudentsPerformance.csv dataset.
+The analysis uses student performance variables including:
+math Score
+Reading Score
+Writing Score
+Gender
+Parental Level of Education
+
+# 🔍 Data Analysis
+1. Dataset Exploration
+The dataset is loaded using Pandas and the first few records are displayed.
+Missing values are also checked, along with descriptive statistics such as:
+Count
+Mean
+Standard deviation
+Minimum
+Maximum
+Quartiles
+
+# 📈 Visualizations
+The project includes the following visualizations:
+math Score Distribution
+A histogram is used to understand the distribution of students' math scores.
+
+Reading vs Writing Scores
+A scatter plot is used to analyze the relationship between reading and writing scores.
+
+Average Scores by Gender
+Average math, reading, and writing scores are calculated for each gender and displayed using a bar chart.
+
+Parental Education vs Math Score
+A box plot is used to examine the relationship between parental level of education and students' math scores.
+
+Correlation Between Scores
+A correlation heatmap is used to analyze the relationship between:
+Math Score
+Reading Score
+Writing Score
+
+# 🔄 Project Workflow
+Load Dataset
+      ↓
+Data Exploration
+      ↓
+Check Missing Values
+      ↓
+Statistical Analysis
+      ↓
+Data Visualization
+      ↓
+Group Analysis
+      ↓
+Correlation Analysis
+      ↓
+Insights
+
+# 📌 Key Analysis Areas
+The project focuses on understanding:
+Distribution of student scores
+Relationship between reading and writing performance
+Average performance by gender
+Relationship between parental education and math performance
+Correlation among math, reading, and writing scores
+
+# ▶️ How to Run
+1. Install required libraries
+pip install pandas matplotlib seaborn
+2. Place the dataset in the project folder
+Make sure the following file is available:
+StudentsPerformance.csv
+3. Run the Python program
+python student_performance.py
+
+The program will display the dataset information, statistical analysis, and visualizations.
+
+# 📌 Conclusion
+This project demonstrates how Python can be used for data analysis and exploratory data visualization.
+It provides a practical understanding of student performance by analyzing score distributions, relationships between subjects, gender-based averages, parental education, and correlations between scores.
+
+# 👩‍💻 Author
+# Lavanya Yalamanchi
+# Computer Science & Data Science Student
